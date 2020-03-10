@@ -307,10 +307,10 @@ img{
 	background-color: black;
 }
 .second-container h1{
-	font-size: 3vh;
+	font-size: 1,5vw;
 }
 .second-container h2{
-	font-size:2vh; 
+	font-size:1vw; 
 }
 
 .second-text2 {
@@ -324,7 +324,7 @@ img{
 
 .hello1{
 	width:45%;
-	font-size: 2vh; 	
+	font-size: 1vw; 	
 }
 .second-text3{
 	width:100%;
