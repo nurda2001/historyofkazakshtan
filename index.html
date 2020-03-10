@@ -1,22 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Makeet Sita</title>
+	<title>Culture of Kazakhstan</title>
 	<link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Allerta&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/1c7eaf1e88.js" crossorigin="anonymous"></script>
 	<link href="css.css" rel="stylesheet">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 </head>
 <body>
 	<div class="landing-wrapper">
 		<div class="wrapper">
 			<div class="header">
 				<div class="logo">
-					<img src="img/LOGO.png">
+					<a href="#home"><img src="img/LOGO.png"></a>
+				</div>
+				<div class="logo-main">
+					<img src="img/Vector.png">
 				</div>
 				<div class="header-elements">
-					<div><a href="singin.html">Sign in</a></div>
-					<a href="#ad"><div class="button">Join us</div></a>
+					<div uk-tooltip="Временно не работает"><a href="singin.html">Sign in</a></div>
+					<div><a href="about.html">About Us</a></div>
+					<a href="#ad"><div class="button" uk-tooltip="Временно не работает">Join us</div></a>
 				</div>
 				<div class="menuwrapper">
 					<input type="checkbox" id="togglebox" />
@@ -25,14 +31,14 @@
 						<label for="togglebox" id="closex">Close</label>
 								<ul>
 									<li><a href="#Home">Home</a></li>
-									<li><a href="about.html">About</a></li>
-									<li><a href="#Portfolio">Portfolio</a></li>
-									<li><a href="#Contacts">Contacts</a></li>
+									<li><a href="#About">About</a></li>
+									<li><a href="#Sign In">Sign In</a></li>
+									<li><a href="#Join">Join Us</a></li>
 								</ul>
 					</nav>
 				</div>
 			</div>
-			<div class="main-container">
+			<div class="main-container" id="home">
 				<div class="logo2">
 					<img src="img/Vector.png">
 				</div>
