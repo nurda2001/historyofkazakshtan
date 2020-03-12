@@ -20,6 +20,43 @@ img{
   color: #FAFF00; 
 }
 
+.nametag{
+	display: flex;
+	justify-content: center; 
+}
+
+.img-his{
+	width:25%;
+	margin: auto;
+}
+
+.vid{
+	padding: 2%;
+}
+
+.text-vidpls{
+	width: 100%;
+	display: flex;
+	justify-content: space-around; 
+}
+
+.img-cont{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.content-page{
+	width:100%;
+	display: flex;
+	flex-direction: column;
+	margin-top: 8%;
+	text-align: center; 
+	color:black;
+	background-color: white;
+	padding: 2%;
+}
+
 .wrapper{
 	display: flex;
 	width:100%;	
@@ -29,6 +66,13 @@ img{
 	align-items: center;
 }
 
+.pivot{
+	width:100%;
+	display: flex;
+	flex-direction:column;
+	background-color: black;
+	margin-top: 8%; 
+}
 
 .header{
 	width:100%;
@@ -190,6 +234,11 @@ img{
 	 cursor: pointer;
 	 transition: 0.5s;
 }
+
+.fix{
+	height: 250px;
+}
+
  .card .card-image {
 	 position: absolute;
 	 top: 0px;
@@ -504,6 +553,26 @@ input[type="checkbox"]#togglebox:checked ~ nav#expand-fullpagemenu label#closex:
 	-webkit-transition: all 0.5s 0.5s;
 	-moz-transition: all 0.5s 0.5s;
 	transition: all 0.5s 0.5s;
+}
+
+.topics{
+	background-color:black;
+}
+
+.hel{
+	margin-top:13%;
+	width: 100%;
+}
+
+.subject{
+	display: flex;
+	width: 800px;
+	flex-direction: row;
+}
+
+.pls{
+	display: flex;
+	width: 60%!important;
 }
 
 @media screen and (max-width: 1500px){
